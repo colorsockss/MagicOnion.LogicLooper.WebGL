@@ -2,7 +2,7 @@
 Cysharp server framework boilerplate example.
 
 
-# MagicOnion with Unity Installation
+## MagicOnion with Unity Installation
 
 ## Tested Unity version
 
@@ -19,7 +19,7 @@ Cysharp server framework boilerplate example.
 2. CsprojModifier 설치
     https://github.com/Cysharp/CsprojModifier
 
-## 클라이언트
+## Client(Unity)
 
 ### nuget으로 설치 해야 하는 것들
 1. MicroSoft.CodeAnalysis
@@ -45,14 +45,14 @@ Cysharp server framework boilerplate example.
 
 유니티에서는 나지 않지만 IDE에서 에러나는 것들이 있어서 패키지 형태로 구성되어 있는 것들은 다 패키지 폴더로 이동시키기
 
-### 기타 설치 패키지들
+### 기타 설치 패키지들(Not Necessary)
 
 - ZLogger.Unity
 1. Install ZLogger.Unity package via git url.
     Add https://github.com/Cysharp/ZLogger.git?path=src/ZLogger.Unity/Assets/ZLogger.Unity to Package Manager
     git이 설치 안된 곳에서는 소스코드 다운 받아서 해당 경로에 있는 파일 직접 유니티 Package 폴더로 복사
 	
-### WebGL 추가 작업
+### WebGL 추가 작업(for WebGL only)
 
 1. GrpcWebSocketBridge webgl custom 
     release 페이지에 가서 Grpc.Net.Client-ModifiedForWebGL.x.x.x.zip 파일 받아서 안에 있는 DLL들 교체
@@ -70,7 +70,7 @@ Cysharp server framework boilerplate example.
     #endif
 ```
 
-## ShareProject 셋팅
+## ShareProject Configuration
 - Class Library 프로젝트로 프로젝트 추가
     1. 프로젝트 구조는 여기 참고 https://github.com/Cysharp/MagicOnion/tree/main/samples/ChatApp
     2. WebGL 은 여기 참고 https://github.com/Cysharp/GrpcWebSocketBridge/tree/main/samples
