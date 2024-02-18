@@ -1,0 +1,7 @@
+{
+  "name": "com.magiconion.logiclooper.webgl.shared",
+  "version": "1.0.0",
+  "displayName": "MagicOnion.LogicLooper.WebGL.Shared",
+  "description": "MagicOnion.LogicLooper.WebGL.Shared",
+  "unity": "2022.3"
+}

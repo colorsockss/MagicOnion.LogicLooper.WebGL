@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
+      <RootNamespace>MagicOnion.LogicLooper.WebGL.Shared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="**\package.json" />
+    <None Remove="**\*.asmdef" />
+    <None Remove="**\*.meta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MagicOnion.Abstractions" Version="6.0.0" />
+    <PackageReference Include="MemoryPack.Generator" Version="1.10.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MemoryPack.UnityShims" Version="1.10.0" />
+  </ItemGroup>
+
+</Project>

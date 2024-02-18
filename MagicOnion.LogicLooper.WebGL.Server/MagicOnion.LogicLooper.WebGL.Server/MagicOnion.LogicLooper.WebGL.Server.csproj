@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishAot>False</PublishAot>
+    <RootNamespace>MagicOnion.LogicLooper.WebGL.Server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.60.0" />
+    <PackageReference Include="GrpcWebSocketBridge.AspNetCore" Version="1.2.2" />
+    <PackageReference Include="LogicLooper" Version="1.4.0" />
+    <PackageReference Include="MagicOnion" Version="6.0.0" />
+    <PackageReference Include="MagicOnion.Abstractions" Version="6.0.0" />
+    <PackageReference Include="MagicOnion.Serialization.MemoryPack" Version="6.0.0-preview" />
+    <PackageReference Include="MagicOnion.Server" Version="6.0.0" />
+    <PackageReference Include="MagicOnion.Shared" Version="6.0.0" />
+    <PackageReference Include="MemoryPack" Version="1.10.0" />
+    <PackageReference Include="MemoryPack.UnityShims" Version="1.10.0" />
+    <PackageReference Include="ZLogger" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MagicOnion.LogicLooper.WebGL.Shared\MagicOnion.LogicLooper.WebGL.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
