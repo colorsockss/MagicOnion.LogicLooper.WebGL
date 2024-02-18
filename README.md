@@ -4,6 +4,12 @@ Cysharp server framework boilerplate example.
 
 # MagicOnion with Unity Installation
 
+## Tested Unity version
+
+- 2022.3.17f1
+- 에디터 환경 작동 확인.
+- WebGL 빌드(Brotli compress) 작동 확인.
+
 ## Prepare
 
 먼저 하지 않으면 중간에 컴파일 에러 발생시 진행 안되는 것들
